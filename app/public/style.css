@@ -1,0 +1,52 @@
+table {
+    border: 1px solid black;
+    background-color: rgb(248, 248, 248);
+    text-align: left;
+    margin: 10px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    border: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #ffdbdb;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+div.form-field {
+    text-align: center;
+}
+
+div.message {
+    background-color: lightgrey;    
+    border: 5px solid rgb(44, 2, 2);
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+article {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.postedat {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
